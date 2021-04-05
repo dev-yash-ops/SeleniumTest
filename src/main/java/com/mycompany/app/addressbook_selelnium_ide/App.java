@@ -19,7 +19,7 @@ public class App
     {
         System.setProperty("webdriver.chrome.driver","C:\\Users\\yash\\chromedriver.exe");
         ChromeOptions chromeOptions = new ChromeOptions();
-        //chromeOptions.addArguments("--headless");
+        chromeOptions.addArguments("--headless");
         WebDriver driver = new ChromeDriver(chromeOptions);
         
         System.out.println("Welcome to Selenium Demo");

@@ -81,7 +81,6 @@
         </plugin>
       </plugins>
     </pluginManagement>
-    <plugins>
       <plugins>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactID>maven-shade-plugin</artifactId>
